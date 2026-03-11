@@ -1,6 +1,6 @@
 .categoriesSection {
   padding: 4rem 0;
-  background: linear-gradient(135deg, var(--white) 0%, var(--light-gray) 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #e9ecef 100%);
 }
 
 .sectionHeader {
@@ -11,7 +11,7 @@
 .sectionTitle {
   font-size: 2.5rem;
   font-weight: 700;
-  color: var(--dark);
+  color: #1a1a2e;
   margin-bottom: 1rem;
   position: relative;
   display: inline-block;
@@ -25,13 +25,13 @@
   transform: translateX(-50%);
   width: 80px;
   height: 4px;
-  background: var(--gradient-2);
+  background: linear-gradient(135deg, #ff6b00 0%, #ff944d 100%);
   border-radius: 2px;
 }
 
 .sectionSubtitle {
   font-size: 1.1rem;
-  color: var(--gray);
+  color: #6c757d;
   max-width: 600px;
   margin: 0 auto;
 }
@@ -55,10 +55,10 @@
 }
 
 .card {
-  background: var(--white);
+  background: white;
   border-radius: 20px;
   padding: 2rem;
-  box-shadow: var(--shadow-lg);
+  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
@@ -76,14 +76,14 @@
   left: 0;
   right: 0;
   height: 4px;
-  background: var(--gradient-2);
+  background: linear-gradient(135deg, #ff6b00 0%, #ff944d 100%);
   transform: scaleX(0);
   transition: transform 0.3s ease;
 }
 
 .card:hover {
   transform: translateY(-10px);
-  box-shadow: var(--shadow-xl);
+  box-shadow: 0 20px 25px rgba(0,0,0,0.1);
 }
 
 .card:hover::before {
@@ -92,19 +92,19 @@
 
 .card:hover .cardIcon {
   transform: rotate(360deg) scale(1.1);
-  background: var(--gradient-2);
+  background: linear-gradient(135deg, #ff6b00 0%, #ff944d 100%);
 }
 
 .cardIcon {
   width: 60px;
   height: 60px;
-  background: var(--gradient-1);
+  background: linear-gradient(135deg, #0055b7 0%, #00b7ff 100%);
   border-radius: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 1.5rem;
-  color: var(--white);
+  color: white;
   font-size: 1.5rem;
   transition: all 0.3s ease;
 }
@@ -112,12 +112,12 @@
 .cardTitle {
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--dark);
+  color: #1a1a2e;
   margin-bottom: 1rem;
 }
 
 .cardDescription {
-  color: var(--gray);
+  color: #6c757d;
   line-height: 1.6;
   margin-bottom: 1.5rem;
   flex-grow: 1;
@@ -127,7 +127,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  color: var(--primary);
+  color: #0055b7;
   font-weight: 600;
   text-decoration: none;
   transition: gap 0.3s ease;
@@ -136,15 +136,15 @@
 
 .card:hover .cardLinkIndicator {
   gap: 1rem;
-  color: var(--secondary);
+  color: #ff6b00;
 }
 
 .cardBadge {
   position: absolute;
   top: 1rem;
   right: 1rem;
-  background: var(--gradient-2);
-  color: var(--white);
+  background: linear-gradient(135deg, #ff6b00 0%, #ff944d 100%);
+  color: white;
   padding: 0.25rem 1rem;
   border-radius: 50px;
   font-size: 0.8rem;

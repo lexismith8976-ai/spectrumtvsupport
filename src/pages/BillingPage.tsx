@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaCreditCard, FaHistory, FaExclamationTriangle, FaPhone, FaEnvelope, FaCheckCircle, FaTimesCircle } from 'react-icons/fa';
+import { FaCreditCard, FaHistory, FaExclamationTriangle, FaPhone, FaEnvelope, FaCheckCircle } from 'react-icons/fa';
 import PageHeader from '../components/common/PageHeader';
 import './PolicyPages.css';
 

@@ -1,6 +1,6 @@
 .about {
   padding: 6rem 0;
-  background: linear-gradient(135deg, var(--white) 0%, #f8f9fa 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
   position: relative;
   overflow: hidden;
 }
@@ -17,12 +17,8 @@
 }
 
 @keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 .aboutGrid {
@@ -37,7 +33,7 @@
 .aboutTitle {
   font-size: 2.5rem;
   font-weight: 700;
-  color: var(--dark);
+  color: #1a1a2e;
   margin-bottom: 1.5rem;
   position: relative;
 }
@@ -49,14 +45,14 @@
   left: 0;
   width: 80px;
   height: 4px;
-  background: var(--gradient-2);
+  background: linear-gradient(135deg, #ff6b00 0%, #ff944d 100%);
   border-radius: 2px;
 }
 
 .aboutText {
   font-size: 1.1rem;
   line-height: 1.8;
-  color: var(--gray);
+  color: #6c757d;
   margin-bottom: 2rem;
 }
 
@@ -71,7 +67,7 @@
   gap: 1rem;
   padding: 0.75rem;
   background: rgba(0,85,183,0.05);
-  border-radius: var(--border-radius);
+  border-radius: 12px;
   transition: all 0.3s ease;
 }
 
@@ -81,15 +77,15 @@
 }
 
 .featureIcon {
-  color: var(--secondary);
+  color: #ff6b00;
   font-size: 1.2rem;
 }
 
 .devicesSection {
-  background: var(--white);
+  background: #ffffff;
   padding: 2.5rem;
   border-radius: 30px;
-  box-shadow: var(--shadow-xl);
+  box-shadow: 0 20px 25px rgba(0,0,0,0.1);
   position: relative;
   overflow: hidden;
 }
@@ -101,7 +97,7 @@
   right: 0;
   width: 150px;
   height: 150px;
-  background: var(--gradient-2);
+  background: linear-gradient(135deg, #ff6b00 0%, #ff944d 100%);
   border-radius: 50%;
   opacity: 0.1;
   transform: translate(50%, -50%);
@@ -110,7 +106,7 @@
 .devicesTitle {
   font-size: 1.5rem;
   font-weight: 600;
-  color: var(--dark);
+  color: #1a1a2e;
   margin-bottom: 2rem;
 }
 
@@ -124,25 +120,25 @@
 .deviceCard {
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   padding: 1.5rem;
-  border-radius: var(--border-radius);
+  border-radius: 12px;
   text-align: center;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .deviceCard:hover {
-  background: var(--gradient-1);
-  color: var(--white);
+  background: linear-gradient(135deg, #0055b7 0%, #00b7ff 100%);
+  color: #ffffff;
 }
 
 .deviceIcon {
   font-size: 2rem;
   margin-bottom: 0.5rem;
-  color: var(--primary);
+  color: #0055b7;
 }
 
 .deviceCard:hover .deviceIcon {
-  color: var(--white);
+  color: #ffffff;
 }
 
 .deviceName {
@@ -156,7 +152,7 @@
   gap: 1rem;
   margin-top: 2rem;
   padding-top: 2rem;
-  border-top: 1px solid var(--light-gray);
+  border-top: 1px solid #e9ecef;
 }
 
 .stat {
@@ -167,12 +163,12 @@
   display: block;
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--secondary);
+  color: #ff6b00;
 }
 
 .statLabel {
   font-size: 0.8rem;
-  color: var(--gray);
+  color: #6c757d;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }

@@ -1,9 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { 
-  FaTv, FaWifi, FaLock, FaMobile, FaDesktop, 
+  FaWifi, FaLock, FaMobile, FaDesktop, 
   FaRedo, FaTrash, FaDownload, FaCheckCircle, 
-  FaInfoCircle, FaGamepad, FaApple, FaAndroid 
+  FaInfoCircle, FaGamepad, FaApple
 } from 'react-icons/fa';
 import PageHeader from '../components/common/PageHeader';
 import './TroubleshootingPage.css';

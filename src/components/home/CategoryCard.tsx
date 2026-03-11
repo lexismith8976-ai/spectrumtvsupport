@@ -22,7 +22,7 @@ const CategoryCard: React.FC<CategoryCardProps> = ({ category }) => {
       opacity: 1, 
       y: 0,
       transition: {
-        type: "spring",
+        type: "spring" as const,
         stiffness: 100,
         damping: 12
       }
@@ -33,6 +33,8 @@ const CategoryCard: React.FC<CategoryCardProps> = ({ category }) => {
     <motion.div 
       className={styles.cardWrapper}
       variants={cardVariants}
+      initial="hidden"
+      animate="visible"
       whileHover={{ scale: 1.02 }}
       whileTap={{ scale: 0.98 }}
     >
@@ -44,9 +46,9 @@ const CategoryCard: React.FC<CategoryCardProps> = ({ category }) => {
           
           <div 
             className={styles.cardIcon}
-            style={{ background: category.color ? `linear-gradient(135deg, ${category.color} 0%, ${category.color}dd 100%)` : undefined }}
+            style={{ background: category.color ? `linear-gradient(135deg, ${category.color} 0%, ${category.color}dd 100%)` : 'var(--gradient-1)' }}
           >
-            <span style={{ fontSize: '1.5rem' }}>{category.icon}</span>
+            <span>{category.icon}</span>
           </div>
           
           <h3 className={styles.cardTitle}>{category.title}</h3>

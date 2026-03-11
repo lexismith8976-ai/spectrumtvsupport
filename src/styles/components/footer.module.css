@@ -1,6 +1,6 @@
 .footer {
-  background: var(--gradient-3);
-  color: var(--white);
+  background: #1a1a2e;
+  color: white;
   padding: 4rem 0 2rem;
   position: relative;
   overflow: hidden;
@@ -13,7 +13,7 @@
   left: 0;
   right: 0;
   height: 4px;
-  background: var(--gradient-2);
+  background: linear-gradient(135deg, #ff6b00 0%, #ff944d 100%);
 }
 
 .footerContent {
@@ -34,13 +34,13 @@
 
 .footerLogoIcon {
   font-size: 2rem;
-  color: var(--secondary);
+  color: #ff6b00;
 }
 
 .footerLogoText {
   font-size: 1.5rem;
   font-weight: 700;
-  background: linear-gradient(135deg, var(--white) 0%, var(--secondary) 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #ff6b00 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -52,7 +52,6 @@
   margin-bottom: 1.5rem;
 }
 
-/* NEW - Auth Buttons Styles */
 .authButtons {
   display: flex;
   gap: 1rem;
@@ -84,7 +83,7 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.6rem 1.2rem;
-  background: var(--gradient-2);
+  background: linear-gradient(135deg, #ff6b00 0%, #ff944d 100%);
   border: none;
   border-radius: 50px;
   color: white;
@@ -96,7 +95,7 @@
 
 .authButtonPrimary:hover {
   transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 .socialLinks {
@@ -112,13 +111,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--white);
+  color: white;
   text-decoration: none;
   transition: all 0.3s ease;
 }
 
 .socialLink:hover {
-  background: var(--gradient-2);
+  background: linear-gradient(135deg, #ff6b00 0%, #ff944d 100%);
   transform: translateY(-3px);
 }
 
@@ -128,6 +127,7 @@
   margin-bottom: 1.5rem;
   position: relative;
   padding-bottom: 0.5rem;
+  color: #ff6b00;
 }
 
 .footerTitle::after {
@@ -137,7 +137,7 @@
   left: 0;
   width: 40px;
   height: 2px;
-  background: var(--gradient-2);
+  background: linear-gradient(135deg, #ff6b00 0%, #ff944d 100%);
 }
 
 .footerLinks {
@@ -158,7 +158,7 @@
 }
 
 .footerLinks a:hover {
-  color: var(--secondary);
+  color: #ff6b00;
   transform: translateX(5px);
 }
 
@@ -172,9 +172,9 @@
   flex: 1;
   padding: 0.75rem;
   border: none;
-  border-radius: var(--border-radius);
+  border-radius: 12px;
   background: rgba(255,255,255,0.1);
-  color: var(--white);
+  color: white;
   font-size: 0.9rem;
 }
 
@@ -184,10 +184,10 @@
 
 .newsletterButton {
   padding: 0.75rem 1.5rem;
-  background: var(--gradient-2);
+  background: linear-gradient(135deg, #ff6b00 0%, #ff944d 100%);
   border: none;
-  border-radius: var(--border-radius);
-  color: var(--white);
+  border-radius: 12px;
+  color: white;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -195,7 +195,7 @@
 
 .newsletterButton:hover {
   transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 .footerBottom {
@@ -227,18 +227,18 @@
 }
 
 .footerBottomLinks a:hover {
-  color: var(--secondary);
+  color: #ff6b00;
 }
 
 .disclaimer {
   background: rgba(0,0,0,0.2);
   padding: 1rem;
-  border-radius: var(--border-radius);
+  border-radius: 12px;
   font-size: 0.85rem;
   color: rgba(255,255,255,0.5);
   text-align: center;
   margin-top: 2rem;
-  border-left: 4px solid var(--secondary);
+  border-left: 4px solid #ff6b00;
 }
 
 @media (max-width: 968px) {

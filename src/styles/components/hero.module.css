@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  background: var(--gradient-3);
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
   padding: 6rem 0;
   overflow: hidden;
 }
@@ -17,12 +17,8 @@
 }
 
 @keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 .heroContent {
@@ -36,7 +32,7 @@
 .heroBadge {
   display: inline-block;
   background: rgba(255,107,0,0.2);
-  color: var(--secondary);
+  color: #ff6b00;
   padding: 0.5rem 1rem;
   border-radius: 50px;
   font-size: 0.9rem;
@@ -56,29 +52,18 @@
 }
 
 .heroTitleGradient {
-  background: linear-gradient(135deg, var(--white) 0%, var(--secondary) 50%, var(--accent) 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #ff6b00 50%, #00b7ff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   display: inline-block;
 }
 
-/* NEW STYLE - For the "Support & Help Center" text */
 .heroSubText {
   background: linear-gradient(135deg, #ffffff 0%, #ffd700 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  display: inline-block;
-  font-size: 2.5rem;
-  font-weight: 600;
-  text-shadow: 0 2px 10px rgba(255, 215, 0, 0.3);
-  margin-top: 0.5rem;
-}
-
-/* Alternative simpler style if you don't want gradient */
-.heroSubTextSimple {
-  color: #ffd700; /* Gold color */
   display: inline-block;
   font-size: 2.5rem;
   font-weight: 600;
@@ -113,8 +98,8 @@
 }
 
 .heroButtonPrimary {
-  background: var(--gradient-2);
-  color: var(--white);
+  background: linear-gradient(135deg, #ff6b00 0%, #ff944d 100%);
+  color: white;
   border: none;
 }
 
@@ -138,7 +123,7 @@
 
 .heroButtonSecondary {
   background: rgba(255,255,255,0.1);
-  color: var(--white);
+  color: white;
   border: 1px solid rgba(255,255,255,0.3);
   backdrop-filter: blur(5px);
 }
@@ -146,7 +131,7 @@
 .heroButtonSecondary:hover {
   background: rgba(255,255,255,0.2);
   transform: translateY(-2px);
-  box-shadow: var(--shadow-lg);
+  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
 }
 
 .heroStats {
@@ -164,7 +149,7 @@
 .statNumber {
   font-size: 2.5rem;
   font-weight: 800;
-  color: var(--secondary);
+  color: #ff6b00;
   display: block;
 }
 
